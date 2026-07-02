@@ -74,12 +74,83 @@
 
 <!--
 
-nav = navigation bar
+====================================
+HTML PAGE STRUCTURE
+====================================
 
-hr = horizontal rule
+<header>
+    Contains introductory content such as:
+    - Website logo
+    - Navigation bar
+    - Main heading
 
+<nav>
+    Defines a section containing navigation links.
 
+<main>
+    Holds the primary content of the page.
+    There should usually only be one <main> element per page.
 
+<footer>
+    Contains information placed at the bottom of the page, such as:
+    - Contact information
+    - Copyright
+    - Social links
 
+<address>
+    Contains contact information for the page or its author.
+    It often includes email addresses, phone numbers, or physical addresses.
+
+<hr>
+    Creates a thematic break (horizontal line) between sections.
+
+====================================
+LINKS
+====================================
+
+Normal page:
+
+    <a href="about.html">About</a>
+
+Jump to another section on the same page:
+
+    <a href="#contact">Contact</a>
+
+Phone number:
+
+    <a href="tel:09123456789">Call</a>
+
+Email address:
+
+    <a href="mailto:example@email.com">Email</a>
+
+====================================
+CSS USED
+====================================
+
+a
+    Styles all hyperlinks.
+
+a:hover
+    Applies styles when the mouse hovers over a link.
+
+body
+    Styles the entire page.
+
+main
+    Styles the main content area.
+
+code
+    Changes the font used for code snippets.
+
+====================================
+NOTE
+====================================
+
+This example uses internal CSS inside a <style> tag.
+
+For larger websites, CSS is usually placed in a separate .css file and linked using:
+
+<link rel="stylesheet" href="style.css">
 
 -->
