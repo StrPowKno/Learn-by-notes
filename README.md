@@ -8,16 +8,16 @@ Instead of writing traditional documentation, I prefer writing code with explana
 
 ## What you'll find
 
-- C
-- Python (mostly libs)
-- HTML
-- CSS
-- JavaScript
-- Linux
-- Git
-- Bash
-- Networking
-- Operating Systems
+- [C](C)
+- Python (mostly libs) COMING SOON
+- [HTML](HTML)
+- [CSS](HTML/CSS/)
+- [JavaScript](HTML/JavaScript/)
+- Linux COMING SOON
+- Git COMING SOON
+- Bash COMING SOON
+- Networking COMING SOON
+- Operating Systems COMING SOON
 - ...and whatever else I learn.
 
 Each topic usually contains:
