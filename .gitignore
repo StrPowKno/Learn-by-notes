@@ -1,0 +1,16 @@
+
+# removing extentionless files
+*
+# keeping files with extensions
+!*/
+!*.*
+
+#also keeping common files
+!LICENSE
+!Makefile
+!README
+
+#removing builds
+
+/builds
+/build
